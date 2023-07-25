@@ -34,6 +34,7 @@ public class Main {
             int salida = JOptionPane.showConfirmDialog(null, "¿Desea continuar con el programa?");
 
             if (salida > 0) {
+                JOptionPane.showMessageDialog(null, "Programa finalizado", "Fin del programa", JOptionPane.PLAIN_MESSAGE);
                 flag = false;
             }
         }
